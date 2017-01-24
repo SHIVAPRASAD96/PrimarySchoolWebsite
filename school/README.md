@@ -1,4 +1,4 @@
-### Primary School Website
+# Primary School Website
 
 This is a primary school website , which has login system implemented into it via php and SQL database at the backend, for the front end we have used bootstrap , html , css and js.
 
