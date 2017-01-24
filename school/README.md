@@ -1,28 +1,18 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Business Casual](http://startbootstrap.com/template-overviews/business-casual/)
+### Primary School Website
 
-[Business Casual](http://startbootstrap.com/template-overviews/business-casual/) is a multipurpose website theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a landing page, about page, blog page, and a contact page along with various custom styles and components.
+This is a primary school website , which has login system implemented into it via php and SQL database at the backend, for the front end we have used bootstrap , html , css and js.
 
-## Getting Started
+## How to get this website working ?
+ 
+1. Download the Zip File extract the file. 
+2. Now copy the extracted folder and place in your server path directory *eg : C://xampp/htdocs/* here paste it.
+3. Import the database onto your local server *Preferably Xampp* .
+4. Inside the folder school open the file *db_connect.php* now here *$conn = ("Your localhost name","username","password","primary"); here dont change the last attribute "primary".*
+5. Once Above steps are done the go to database and check the student table for which you hav *sid's* don't try view results of those candidates whose *sid's* aren't there in student table.
+6. After this you are ready to go and in the website admin login details *username : shiva password: prasad*.
+7. Follow The steps and go through them again and check them once again.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/business-casual/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-business-casual.git`
-* Fork the repo
-* Your must enter your database information and your email in form-handler.php - if you don't have a database, that's fine.  Edit contact.html to direct the form to form-handler-nodb.php and emails will be sent with no database writes.
+##Limitations 
 
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-business-casual/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/business-casual/).
-
-## Creator
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/gh-pages/LICENSE) license.
+1. The Admin Can't Change the student table data through the web app he has to enter into the database and make changes though he can make changes to the marks via *sid(student id)*.
+2. It doesn't provide more functionality to user apart from viewning results of their students and contacting the school.
