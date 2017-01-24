@@ -6,7 +6,7 @@ This is a primary school website , which has login system implemented into it vi
  
 1. Download the Zip File extract the file. 
 2. Now copy the extracted folder and place in your server path directory *eg : C://xampp/htdocs/* here paste it.
-3. Import the database onto your local server *Preferably Xampp* .
+3. Import the database from database folder (*file name is "primary.sql"*) onto your local server *Preferably Xampp* .
 4. Inside the folder school open the file *db_connect.php* now here *$conn = ("Your localhost name","username","password","primary"); here dont change the last attribute "primary".*
 5. Once Above steps are done the go to database and check the student table for which you hav *sid's* don't try view results of those candidates whose *sid's* aren't there in student table.
 6. After this you are ready to go and in the website admin login details *username : shiva password: prasad*.
